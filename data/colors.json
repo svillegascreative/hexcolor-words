@@ -1,0 +1,637 @@
+[
+  {
+    "hex": "#ABBE55",
+    "name": "Abbe55",
+    "url": "https://www.merriam-webster.com/dictionary/abbess"
+  },
+  {
+    "hex": "#ACCEDE",
+    "name": "Accede",
+    "url": "https://www.merriam-webster.com/dictionary/accede"
+  },
+  {
+    "hex": "#ACCE55",
+    "name": "Acce55",
+    "url": "https://www.merriam-webster.com/dictionary/access"
+  },
+  {
+    "hex": "#ACC057",
+    "name": "Accost",
+    "url": "https://www.merriam-webster.com/dictionary/accost"
+  },
+  {
+    "hex": "#AFFEC7",
+    "name": "Affect",
+    "url": "https://www.merriam-webster.com/dictionary/affect"
+  },
+  {
+    "hex": "#AF10A7",
+    "name": "Afloat",
+    "url": "https://www.merriam-webster.com/dictionary/afloat"
+  },
+  {
+    "hex": "#A1BED0",
+    "name": "Albedo",
+    "url": "https://www.merriam-webster.com/dictionary/albedo"
+  },
+  {
+    "hex": "#A1D05E",
+    "name": "Aldose",
+    "url": "https://www.merriam-webster.com/dictionary/aldose"
+  },
+  {
+    "hex": "#A55E55",
+    "name": "Assess",
+    "url": "https://www.merriam-webster.com/dictionary/assess"
+  },
+  {
+    "hex": "#A55E75",
+    "name": "Assert",
+    "url": "https://www.merriam-webster.com/dictionary/assert"
+  },
+  {
+    "hex": "#A77E57",
+    "name": "Attest",
+    "url": "https://www.merriam-webster.com/dictionary/attest"
+  },
+  {
+    "hex": "#BABB1E",
+    "name": "Babble",
+    "url": "https://www.merriam-webster.com/dictionary/babble"
+  },
+  {
+    "hex": "#BADA55",
+    "name": "Bada55",
+    "url": "https://www.merriam-webster.com/dictionary/badass"
+  },
+  {
+    "hex": "#BADD1E",
+    "name": "Baddie",
+    "url": "https://www.merriam-webster.com/dictionary/baddie"
+  },
+  {
+    "hex": "#BAFF1E",
+    "name": "Baffle",
+    "url": "https://www.merriam-webster.com/dictionary/baffle"
+  },
+  {
+    "hex": "#BA1A7A",
+    "name": "Balata",
+    "url": "https://www.merriam-webster.com/dictionary/balata"
+  },
+  {
+    "hex": "#BA1B0A",
+    "name": "Balboa",
+    "url": "https://www.merriam-webster.com/dictionary/balboa"
+  },
+  {
+    "hex": "#BA11AD",
+    "name": "Ballad",
+    "url": "https://www.merriam-webster.com/dictionary/ballad"
+  },
+  {
+    "hex": "#BA11E7",
+    "name": "Ballet",
+    "url": "https://www.merriam-webster.com/dictionary/ballet"
+  },
+  {
+    "hex": "#BA1107",
+    "name": "Ballot",
+    "url": "https://www.merriam-webster.com/dictionary/ballot"
+  },
+  {
+    "hex": "#BA0BAB",
+    "name": "Baobab",
+    "url": "https://www.merriam-webster.com/dictionary/baobab"
+  },
+  {
+    "hex": "#BA5A17",
+    "name": "Basalt",
+    "url": "https://www.merriam-webster.com/dictionary/basalt"
+  },
+  {
+    "hex": "#BA55E7",
+    "name": "Basset",
+    "url": "https://www.merriam-webster.com/dictionary/basset"
+  },
+  {
+    "hex": "#BEADED",
+    "name": "Beaded",
+    "url": "https://www.merriam-webster.com/dictionary/beaded"
+  },
+  {
+    "hex": "#BEE71E",
+    "name": "Beetle",
+    "url": "https://www.merriam-webster.com/dictionary/beetle"
+  },
+  {
+    "hex": "#BEFA11",
+    "name": "Befall",
+    "url": "https://www.merriam-webster.com/dictionary/befall"
+  },
+  {
+    "hex": "#BE17ED",
+    "name": "Belted",
+    "url": "https://www.merriam-webster.com/dictionary/belted"
+  },
+  {
+    "hex": "#B10770",
+    "name": "Blotto",
+    "url": "https://www.merriam-webster.com/dictionary/blotto"
+  },
+  {
+    "hex": "#B0BB1E",
+    "name": "Bobbie",
+    "url": "https://www.merriam-webster.com/dictionary/bobbie"
+  },
+  {
+    "hex": "#B0BCA7",
+    "name": "Bobcat",
+    "url": "https://www.merriam-webster.com/dictionary/bobcat"
+  },
+  {
+    "hex": "#B00D1E",
+    "name": "Boodie",
+    "url": "https://www.merriam-webster.com/dictionary/boodie"
+  },
+  {
+    "hex": "#B007ED",
+    "name": "Booted",
+    "url": "https://www.merriam-webster.com/dictionary/booted"
+  },
+  {
+    "hex": "#B007EE",
+    "name": "Bootee",
+    "url": "https://www.merriam-webster.com/dictionary/bootee"
+  },
+  {
+    "hex": "#B0771E",
+    "name": "Bottle",
+    "url": "https://www.merriam-webster.com/dictionary/bottle"
+  },
+  {
+    "hex": "#CABA1A",
+    "name": "Cabala",
+    "url": "https://www.merriam-webster.com/dictionary/cabala"
+  },
+  {
+    "hex": "#CAB1E7",
+    "name": "Cablet",
+    "url": "https://www.merriam-webster.com/dictionary/cablet"
+  },
+  {
+    "hex": "#CA1CE5",
+    "name": "Calces",
+    "url": "https://www.merriam-webster.com/dictionary/calces"
+  },
+  {
+    "hex": "#CA7A10",
+    "name": "Catalo",
+    "url": "https://www.merriam-webster.com/dictionary/catalo"
+  },
+  {
+    "hex": "#CA771E",
+    "name": "Cattle",
+    "url": "https://www.merriam-webster.com/dictionary/cattle"
+  },
+  {
+    "hex": "#C10ACA",
+    "name": "Cloaca",
+    "url": "https://www.merriam-webster.com/dictionary/cloaca"
+  },
+  {
+    "hex": "#C105ED",
+    "name": "Closed",
+    "url": "https://www.merriam-webster.com/dictionary/closed"
+  },
+  {
+    "hex": "#C105E7",
+    "name": "Closet",
+    "url": "https://www.merriam-webster.com/dictionary/closet"
+  },
+  {
+    "hex": "#C0BA17",
+    "name": "Cobalt",
+    "url": "https://www.merriam-webster.com/dictionary/cobalt"
+  },
+  {
+    "hex": "#C0BB1E",
+    "name": "Cobble",
+    "url": "https://www.merriam-webster.com/dictionary/cobble"
+  },
+  {
+    "hex": "#C0DD1E",
+    "name": "Coddle",
+    "url": "https://www.merriam-webster.com/dictionary/coddle"
+  },
+  {
+    "hex": "#C0FF1E",
+    "name": "Coffle",
+    "url": "https://www.merriam-webster.com/dictionary/coffle"
+  },
+  {
+    "hex": "#C0FFEE",
+    "name": "Coffee",
+    "url": "https://www.merriam-webster.com/dictionary/coffee"
+  },
+  {
+    "hex": "#C011E7",
+    "name": "Collet",
+    "url": "https://www.merriam-webster.com/dictionary/collet"
+  },
+  {
+    "hex": "#C055E7",
+    "name": "Cosset",
+    "url": "https://www.merriam-webster.com/dictionary/cosset"
+  },
+  {
+    "hex": "#DABB1E",
+    "name": "Dabble",
+    "url": "https://www.merriam-webster.com/dictionary/dabble"
+  },
+  {
+    "hex": "#DAEDA1",
+    "name": "Daedal",
+    "url": "https://www.merriam-webster.com/dictionary/daedal"
+  },
+  {
+    "hex": "#DEBA5E",
+    "name": "Debase",
+    "url": "https://www.merriam-webster.com/dictionary/debase"
+  },
+  {
+    "hex": "#DECADE",
+    "name": "Decade",
+    "url": "https://www.merriam-webster.com/dictionary/decade"
+  },
+  {
+    "hex": "#DEC0C7",
+    "name": "Decoct",
+    "url": "https://www.merriam-webster.com/dictionary/decoct"
+  },
+  {
+    "hex": "#DEC0DE",
+    "name": "Decode",
+    "url": "https://www.merriam-webster.com/dictionary/decode"
+  },
+  {
+    "hex": "#DEFACE",
+    "name": "Deface",
+    "url": "https://www.merriam-webster.com/dictionary/deface"
+  },
+  {
+    "hex": "#DEFEA7",
+    "name": "Defeat",
+    "url": "https://www.merriam-webster.com/dictionary/defeat"
+  },
+  {
+    "hex": "#DEFEC8",
+    "name": "Defecate",
+    "url": "https://www.merriam-webster.com/dictionary/defecate"
+  },
+  {
+    "hex": "#DEFEC7",
+    "name": "Defect",
+    "url": "https://www.merriam-webster.com/dictionary/defect"
+  },
+  {
+    "hex": "#DE1E7E",
+    "name": "Delete",
+    "url": "https://www.merriam-webster.com/dictionary/delete"
+  },
+  {
+    "hex": "#DE5018",
+    "name": "Desolate",
+    "url": "https://www.merriam-webster.com/dictionary/desolate"
+  },
+  {
+    "hex": "#DE7EC7",
+    "name": "Detect",
+    "url": "https://www.merriam-webster.com/dictionary/detect"
+  },
+  {
+    "hex": "#DE7E57",
+    "name": "Detest",
+    "url": "https://www.merriam-webster.com/dictionary/detest"
+  },
+  {
+    "hex": "#D0AB1E",
+    "name": "Doable",
+    "url": "https://www.merriam-webster.com/dictionary/doable"
+  },
+  {
+    "hex": "#D00DAD",
+    "name": "Doodad",
+    "url": "https://www.merriam-webster.com/dictionary/doodad"
+  },
+  {
+    "hex": "#D00D1E",
+    "name": "Doodle",
+    "url": "https://www.merriam-webster.com/dictionary/doodle"
+  },
+  {
+    "hex": "#D055A1",
+    "name": "Dossal",
+    "url": "https://www.merriam-webster.com/dictionary/dossal"
+  },
+  {
+    "hex": "#D077ED",
+    "name": "Dotted",
+    "url": "https://www.merriam-webster.com/dictionary/dotted"
+  },
+  {
+    "hex": "#D0771E",
+    "name": "Dottle",
+    "url": "https://www.merriam-webster.com/dictionary/dottle"
+  },
+  {
+    "hex": "#EFFACE",
+    "name": "Efface",
+    "url": "https://www.merriam-webster.com/dictionary/efface"
+  },
+  {
+    "hex": "#EFFEC7",
+    "name": "Effect",
+    "url": "https://www.merriam-webster.com/dictionary/effect"
+  },
+  {
+    "hex": "#EFFE7E",
+    "name": "Effete",
+    "url": "https://www.merriam-webster.com/dictionary/effete"
+  },
+  {
+    "hex": "#E1DE57",
+    "name": "Eidest",
+    "url": "https://www.merriam-webster.com/dictionary/eidest"
+  },
+  {
+    "hex": "#E5CA18",
+    "name": "Esca1ate",
+    "url": "https://www.merriam-webster.com/dictionary/escalate"
+  },
+  {
+    "hex": "#FAB1ED",
+    "name": "Fabled",
+    "url": "https://www.merriam-webster.com/dictionary/fabled"
+  },
+  {
+    "hex": "#FAECE5",
+    "name": "Faeces",
+    "url": "https://www.merriam-webster.com/dictionary/faeces"
+  },
+  {
+    "hex": "#FA11A1",
+    "name": "Fallal",
+    "url": "https://www.merriam-webster.com/dictionary/fallal"
+  },
+  {
+    "hex": "#FA5CE5",
+    "name": "Fasces",
+    "url": "https://www.merriam-webster.com/dictionary/fasces"
+  },
+  {
+    "hex": "#FEEB1E",
+    "name": "Feeble",
+    "url": "https://www.merriam-webster.com/dictionary/feeble"
+  },
+  {
+    "hex": "#FE57A1",
+    "name": "Festal",
+    "url": "https://www.merriam-webster.com/dictionary/festal"
+  },
+  {
+    "hex": "#FE771E",
+    "name": "Fettle",
+    "url": "https://www.merriam-webster.com/dictionary/fettle"
+  },
+  {
+    "hex": "#F1EECE",
+    "name": "Fleece",
+    "url": "https://www.merriam-webster.com/dictionary/fleece"
+  },
+  {
+    "hex": "#F10A75",
+    "name": "Floats",
+    "url": "https://www.merriam-webster.com/dictionary/float"
+  },
+  {
+    "hex": "#F007ED",
+    "name": "Footed",
+    "url": "https://www.merriam-webster.com/dictionary/footed"
+  },
+  {
+    "hex": "#F0071E",
+    "name": "Footie",
+    "url": "https://www.merriam-webster.com/dictionary/footie"
+  },
+  {
+    "hex": "#1E55EE",
+    "name": "Lessee",
+    "url": "https://www.merriam-webster.com/dictionary/lessee"
+  },
+  {
+    "hex": "#10ADED",
+    "name": "Loaded",
+    "url": "https://www.merriam-webster.com/dictionary/loaded"
+  },
+  {
+    "hex": "#10CA1E",
+    "name": "Locale",
+    "url": "https://www.merriam-webster.com/dictionary/locale"
+  },
+  {
+    "hex": "#10CA7E",
+    "name": "Locate",
+    "url": "https://www.merriam-webster.com/dictionary/locate"
+  },
+  {
+    "hex": "#0B1A57",
+    "name": "Oblast",
+    "url": "https://www.merriam-webster.com/dictionary/oblast"
+  },
+  {
+    "hex": "#0B5E55",
+    "name": "Obsess",
+    "url": "https://www.merriam-webster.com/dictionary/obsess"
+  },
+  {
+    "hex": "#0B7EC7",
+    "name": "Obtect",
+    "url": "https://www.merriam-webster.com/dictionary/obtect"
+  },
+  {
+    "hex": "#0B7E57",
+    "name": "Obtest",
+    "url": "https://www.merriam-webster.com/dictionary/obtest"
+  },
+  {
+    "hex": "#0CE107",
+    "name": "Ocelot",
+    "url": "https://www.merriam-webster.com/dictionary/ocelot"
+  },
+  {
+    "hex": "#0FF5E7",
+    "name": "Offset",
+    "url": "https://www.merriam-webster.com/dictionary/offset"
+  },
+  {
+    "hex": "#01DE57",
+    "name": "Oldest",
+    "url": "https://www.merriam-webster.com/dictionary/oldest"
+  },
+  {
+    "hex": "#00D1E5",
+    "name": "Oodles",
+    "url": "https://www.merriam-webster.com/dictionary/oodles"
+  },
+  {
+    "hex": "#057EA1",
+    "name": "Osteal",
+    "url": "https://www.merriam-webster.com/dictionary/osteal"
+  },
+  {
+    "hex": "#5ADD1E",
+    "name": "Saddle",
+    "url": "https://www.merriam-webster.com/dictionary/saddle"
+  },
+  {
+    "hex": "#5A1ADE",
+    "name": "Salade",
+    "url": "https://www.merriam-webster.com/dictionary/salade"
+  },
+  {
+    "hex": "#5A11E7",
+    "name": "Sallet",
+    "url": "https://www.merriam-webster.com/dictionary/sallet"
+  },
+  {
+    "hex": "#5A17ED",
+    "name": "Salted",
+    "url": "https://www.merriam-webster.com/dictionary/salted"
+  },
+  {
+    "hex": "#5C1AFF",
+    "name": "Sclaff",
+    "url": "https://www.merriam-webster.com/dictionary/sclaff"
+  },
+  {
+    "hex": "#5EA1ED",
+    "name": "Sealed",
+    "url": "https://www.merriam-webster.com/dictionary/sealed"
+  },
+  {
+    "hex": "#5ECEDE",
+    "name": "Secede",
+    "url": "https://www.merriam-webster.com/dictionary/secede"
+  },
+  {
+    "hex": "#5E1EC7",
+    "name": "Select",
+    "url": "https://www.merriam-webster.com/dictionary/select"
+  },
+  {
+    "hex": "#5E57E7",
+    "name": "Sestet",
+    "url": "https://www.merriam-webster.com/dictionary/sestet"
+  },
+  {
+    "hex": "#5E705E",
+    "name": "Setose",
+    "url": "https://www.merriam-webster.com/dictionary/setose"
+  },
+  {
+    "hex": "#5E77EE",
+    "name": "Settee",
+    "url": "https://www.merriam-webster.com/dictionary/settee"
+  },
+  {
+    "hex": "#5E771E",
+    "name": "Settle",
+    "url": "https://www.merriam-webster.com/dictionary/settle"
+  },
+  {
+    "hex": "#501ACE",
+    "name": "Solace",
+    "url": "https://www.merriam-webster.com/dictionary/solace"
+  },
+  {
+    "hex": "#5077ED",
+    "name": "Sotted",
+    "url": "https://www.merriam-webster.com/dictionary/sotted"
+  },
+  {
+    "hex": "#57AB1E",
+    "name": "Stable",
+    "url": "https://www.merriam-webster.com/dictionary/stable"
+  },
+  {
+    "hex": "#57AC7E",
+    "name": "Stacte",
+    "url": "https://www.merriam-webster.com/dictionary/stacte"
+  },
+  {
+    "hex": "#57EE15",
+    "name": "Steels",
+    "url": "https://www.merriam-webster.com/dictionary/steels"
+  },
+  {
+    "hex": "#57E118",
+    "name": "Stellate",
+    "url": "https://www.merriam-webster.com/dictionary/stellate"
+  },
+  {
+    "hex": "#7AB1E7",
+    "name": "Tablet",
+    "url": "https://www.merriam-webster.com/dictionary/tablet"
+  },
+  {
+    "hex": "#7A55E1",
+    "name": "Tassel",
+    "url": "https://www.merriam-webster.com/dictionary/tassel"
+  },
+  {
+    "hex": "#7A55E7",
+    "name": "Tasset",
+    "url": "https://www.merriam-webster.com/dictionary/tasset"
+  },
+  {
+    "hex": "#7A771E",
+    "name": "Tattie",
+    "url": "https://www.merriam-webster.com/dictionary/tattie"
+  },
+  {
+    "hex": "#7A771E",
+    "name": "Tattle",
+    "url": "https://www.merriam-webster.com/dictionary/tattle"
+  },
+  {
+    "hex": "#7A7700",
+    "name": "Tattoo",
+    "url": "https://www.merriam-webster.com/dictionary/tattoo"
+  },
+  {
+    "hex": "#7EA5E1",
+    "name": "Teasel",
+    "url": "https://www.merriam-webster.com/dictionary/teasel"
+  },
+  {
+    "hex": "#7E57EE",
+    "name": "Testee",
+    "url": "https://www.merriam-webster.com/dictionary/testee"
+  },
+  {
+    "hex": "#7E57E5",
+    "name": "Testes",
+    "url": "https://www.merriam-webster.com/dictionary/testes"
+  },
+  {
+    "hex": "#70DD1E",
+    "name": "Toddle",
+    "url": "https://www.merriam-webster.com/dictionary/toddle"
+  },
+  {
+    "hex": "#70FFEE",
+    "name": "Toffee",
+    "url": "https://www.merriam-webster.com/dictionary/toffee"
+  }
+]
