@@ -1,0 +1,16 @@
+---
+layout: document.njk
+---
+
+<h1>Hexword Colors</h1>
+
+<div class="grid">
+  {% for color in colors %}
+  <div class="color-block">
+    <div class="color-sample" style="background:{{ color.hex }}"></div>
+    <div class="hex">{{ color.hex }}</div>
+    <div class="name">{{ color.name }}</div>
+    <a href="{{ color.url }}" target="_blank">Dictionary</a>
+  </div>
+  {% endfor %}
+</div>
