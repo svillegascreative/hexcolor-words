@@ -3,11 +3,16 @@ layout: document.njk
 ---
 
 <h1>Hexword Colors</h1>
+
 <div class="search-container">
-  <label for="searchInput">Search colors by name or hex</label>
+  <label for="searchInput"
+    >Search {{colors.length}} colors by name or hex</label
+  >
   <input type="text" id="searchInput" class="search-input" />
 </div>
-<button id="openModalBtn" style="margin: 2rem auto; display: block;">Suggest a missing color</button>
+<button id="openModalBtn" style="margin: 2rem auto; display: block">
+  Suggest a missing color
+</button>
 <div class="modal" id="suggestModal">
   <div class="modal-content">
     <button class="close" id="closeModalBtn" aria-label="Close">&times;</button>
