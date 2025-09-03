@@ -8,7 +8,19 @@ layout: document.njk
   <label for="searchInput"
     >Search {{colors.length}} colors by name or hex</label
   >
-  <input type="text" id="searchInput" class="search-input" />
+  <div
+    style="
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <input type="text" id="searchInput" class="search-input" />
+    <button type="button" id="clearSearchBtn" class="search-clear-btn">
+      Clear
+    </button>
+  </div>
 </div>
 <button id="openModalBtn" style="margin: 2rem auto; display: block">
   Suggest a missing color
@@ -68,6 +80,14 @@ layout: document.njk
           block.classList.add("hide");
         }
       });
+    });
+
+    const clearSearchBtn = document.getElementById("clearSearchBtn");
+    const searchInput = document.getElementById("searchInput");
+    clearSearchBtn.addEventListener("click", function () {
+      searchInput.value = "";
+      searchInput.dispatchEvent(new Event("input"));
+      searchInput.focus();
     });
 
     const openModalBtn = document.getElementById("openModalBtn");
