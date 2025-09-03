@@ -1,7 +1,9 @@
-require("dotenv").config();
-const fetch = require("node-fetch");
 
-exports.handler = async function (event) {
+import dotenv from "dotenv";
+import fetch from "node-fetch";
+dotenv.config();
+
+export async function handler(event) {
   if (event.httpMethod !== "POST") {
     return {
       statusCode: 405,
@@ -102,4 +104,4 @@ exports.handler = async function (event) {
     statusCode: 200,
     body: JSON.stringify({ pr_url: pr.html_url }),
   };
-};
+}
