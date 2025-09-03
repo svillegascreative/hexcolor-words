@@ -121,14 +121,11 @@ layout: document.njk
       btn.disabled = true;
       btn.textContent = "Submitting...";
       try {
-        const res = await fetch(
-          "https://hexcolor-words.netlify.app/server/suggest-color",
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ hex, name, url }),
-          }
-        );
+        const res = await fetch("server/suggest-color", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ hex, name, url }),
+        });
         const data = await res.json();
         if (res.ok && data.pr_url) {
           alert(
