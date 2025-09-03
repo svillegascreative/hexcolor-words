@@ -25,6 +25,21 @@ h1 {
   margin-bottom: 2rem;
 }
 
+/* SEARCH STYLES */
+.search-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 300px;
+  max-width: 90vw;
+}
+
 /* COLOR GRID */
 .grid {
   list-style: "";
@@ -70,4 +85,8 @@ h1 {
 
 .name {
   margin-bottom: 0.25rem;
+}
+
+.hide {
+  display: none !important;
 }

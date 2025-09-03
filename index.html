@@ -3,6 +3,10 @@ layout: document.njk
 ---
 
 <h1>Hexword Colors</h1>
+<div class="search-container">
+  <label for="searchInput">Search colors by name or hex</label>
+  <input type="text" id="searchInput" class="search-input" />
+</div>
 
 <ul class="grid">
   {% for color in colors %}
@@ -16,3 +20,21 @@ layout: document.njk
   </li>
   {% endfor %}
 </ul>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const input = document.getElementById("searchInput");
+    input.addEventListener("input", function (e) {
+      const val = e.target.value.toLowerCase();
+      document.querySelectorAll(".grid > li").forEach((block) => {
+        const hex = block.querySelector(".hex").textContent.toLowerCase();
+        const name = block.querySelector(".name").textContent.toLowerCase();
+        if (hex.startsWith(val) || name.startsWith(val) || val === "") {
+          block.classList.remove("hide");
+        } else {
+          block.classList.add("hide");
+        }
+      });
+    });
+  });
+</script>
