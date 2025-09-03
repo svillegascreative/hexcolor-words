@@ -1,7 +1,4 @@
-import { createRequire } from "node:module";
-const require = createRequire(import.meta.url);
-const fetch = require("node-fetch");
-
+import fetch from "node-fetch";
 import dotenv from "dotenv";
 dotenv.config();
 
