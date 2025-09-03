@@ -2,7 +2,7 @@
 layout: document.njk
 ---
 
-<h1>Hexword Colors</h1>
+<h1>Hexcolor Words</h1>
 
 <div class="search-container">
   <label for="searchInput"
@@ -121,11 +121,14 @@ layout: document.njk
       btn.disabled = true;
       btn.textContent = "Submitting...";
       try {
-        const res = await fetch("/.netlify/functions/suggest-color", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ hex, name, url }),
-        });
+        const res = await fetch(
+          "https://hexcolor-words.netlify.app/server/suggest-color",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ hex, name, url }),
+          }
+        );
         const data = await res.json();
         if (res.ok && data.pr_url) {
           alert(
