@@ -1,3 +1,4 @@
+require("dotenv").config();
 const fetch = require("node-fetch");
 
 exports.handler = async function (event) {
@@ -10,8 +11,11 @@ exports.handler = async function (event) {
 
   const token = process.env.GITHUB_TOKEN;
   const repo = process.env.GITHUB_REPO; // e.g. "username/repo"
-  const colorsPath = process.env.COLORS_PATH || "_data/colors.json";
+  if (!process.env.GITHUB_TOKEN || !process.env.GITHUB_REPO) {
+    throw new Error("Missing GITHUB_TOKEN or GITHUB_REPO environment variable");
+  }
 
+  const colorsPath = "_data/colors.json";
   const { hex, name, url } = JSON.parse(event.body);
 
   // Step 1: Get the current colors.json
