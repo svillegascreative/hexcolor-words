@@ -46,8 +46,8 @@
   },
   {
     "hex": "#A55E75",
-    "name": "Assert",
-    "url": "https://www.merriam-webster.com/dictionary/assert"
+    "name": "Assets",
+    "url": "https://www.merriam-webster.com/dictionary/assets"
   },
   {
     "hex": "#A77E57",
@@ -58,6 +58,11 @@
     "hex": "#BABB1E",
     "name": "Babble",
     "url": "https://www.merriam-webster.com/dictionary/babble"
+  },
+  {
+    "hex": "#BAB1E5",
+    "name": "Babies",
+    "url": "https://www.merriam-webster.com/dictionary/babies"
   },
   {
     "hex": "#BADA55",
@@ -145,9 +150,19 @@
     "url": "https://www.merriam-webster.com/dictionary/bobbie"
   },
   {
+    "hex": "#B0BB1E",
+    "name": "Bobble",
+    "url": "https://www.merriam-webster.com/dictionary/bobble"
+  },
+  {
     "hex": "#B0BCA7",
     "name": "Bobcat",
     "url": "https://www.merriam-webster.com/dictionary/bobcat"
+  },
+  {
+    "hex": "#B00B00",
+    "name": "Booboo",
+    "url": "https://www.merriam-webster.com/dictionary/boo-boo"
   },
   {
     "hex": "#B00D1E",
@@ -165,6 +180,11 @@
     "url": "https://www.merriam-webster.com/dictionary/bootee"
   },
   {
+    "hex": "#B0071E",
+    "name": "Bootie",
+    "url": "https://www.merriam-webster.com/dictionary/bootie"
+  },
+  {
     "hex": "#B0771E",
     "name": "Bottle",
     "url": "https://www.merriam-webster.com/dictionary/bottle"
@@ -178,6 +198,11 @@
     "hex": "#CAB1E7",
     "name": "Cablet",
     "url": "https://www.merriam-webster.com/dictionary/cablet"
+  },
+  {
+    "hex": "#CADE75",
+    "name": "Cadets",
+    "url": "https://www.merriam-webster.com/dictionary/cadets"
   },
   {
     "hex": "#CA1CE5",
@@ -238,6 +263,11 @@
     "hex": "#C011E7",
     "name": "Collet",
     "url": "https://www.merriam-webster.com/dictionary/collet"
+  },
+  {
+    "hex": "#C0071E",
+    "name": "Cootie",
+    "url": "https://www.merriam-webster.com/dictionary/cootie"
   },
   {
     "hex": "#C055E7",
@@ -361,8 +391,8 @@
   },
   {
     "hex": "#E1DE57",
-    "name": "Eidest",
-    "url": "https://www.merriam-webster.com/dictionary/eidest"
+    "name": "Eldest",
+    "url": "https://www.merriam-webster.com/dictionary/eldest"
   },
   {
     "hex": "#E5CA18",
@@ -373,6 +403,11 @@
     "hex": "#FAB1ED",
     "name": "Fabled",
     "url": "https://www.merriam-webster.com/dictionary/fabled"
+  },
+  {
+    "hex": "#FAB1E5",
+    "name": "Fables",
+    "url": "https://www.merriam-webster.com/dictionary/fable"
   },
   {
     "hex": "#FAECE5",
@@ -415,6 +450,11 @@
     "url": "https://www.merriam-webster.com/dictionary/float"
   },
   {
+    "hex": "#F00D1E",
+    "name": "Foodie",
+    "url": "https://www.merriam-webster.com/dictionary/foodie"
+  },
+  {
     "hex": "#F007ED",
     "name": "Footed",
     "url": "https://www.merriam-webster.com/dictionary/footed"
@@ -423,6 +463,31 @@
     "hex": "#F0071E",
     "name": "Footie",
     "url": "https://www.merriam-webster.com/dictionary/footie"
+  },
+  {
+    "hex": "#6ABIED",
+    "name": "Gabled",
+    "url": "https://www.merriam-webster.com/dictionary/gabled"
+  },
+  {
+    "hex": "#6ABIE5",
+    "name": "Gables",
+    "url": "https://www.merriam-webster.com/dictionary/gable"
+  },
+  {
+    "hex": "#1ABE15",
+    "name": "Labels",
+    "url": "https://www.merriam-webster.com/dictionary/labels"
+  },
+  {
+    "hex": "#1AD1E5",
+    "name": "Ladies",
+    "url": "https://www.merriam-webster.com/dictionary/ladies"
+  },
+  {
+    "hex": "#1AD1E5",
+    "name": "Ladles",
+    "url": "https://www.merriam-webster.com/dictionary/ladles"
   },
   {
     "hex": "#1E55EE",
@@ -633,5 +698,50 @@
     "hex": "#70FFEE",
     "name": "Toffee",
     "url": "https://www.merriam-webster.com/dictionary/toffee"
+  },
+  {
+    "hex": "#CA571E",
+    "name": "Castile",
+    "url": "https://www.merriam-webster.com/dictionary/castile"
+  },
+  {
+    "hex": "#C10537",
+    "name": "Cioser",
+    "url": "https://www.merriam-webster.com/dictionary/cioser"
+  },
+  {
+    "hex": "#DABBED",
+    "name": "Dabbed",
+    "url": "https://www.merriam-webster.com/dictionary/dabbed"
+  },
+  {
+    "hex": "#FE11A5",
+    "name": "Fellas",
+    "url": "https://www.merriam-webster.com/dictionary/fellas"
+  },
+  {
+    "hex": "#5A55ED",
+    "name": "Sassed",
+    "url": "https://www.merriam-webster.com/dictionary/sassed"
+  },
+  {
+    "hex": "#BEDDED",
+    "name": "Bedded",
+    "url": "https://www.merriam-webster.com/dictionary/bedded"
+  },
+  {
+    "hex": "#BACABA",
+    "name": "Bacaba",
+    "url": "https://www.merriam-webster.com/dictionary/bacaba"
+  },
+  {
+    "hex": "#BOBBED",
+    "name": "Bobbed",
+    "url": "https://www.merriam-webster.com/dictionary/bobbed"
+  },
+  {
+    "hex": "#DO77ED",
+    "name": "Dotted",
+    "url": "https://www.merriam-webster.com/dictionary/dotted"
   }
 ]
