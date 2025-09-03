@@ -1,6 +1,8 @@
+import { createRequire } from "node:module";
+const require = createRequire(import.meta.url);
+const fetch = require("node-fetch");
 
 import dotenv from "dotenv";
-import fetch from "node-fetch";
 dotenv.config();
 
 export async function handler(event) {
