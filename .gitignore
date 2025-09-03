@@ -4,5 +4,5 @@ node_modules/
 # build output
 _site/
 
-# Ignore serverless backend code
-server/
+# Github config details
+github/
