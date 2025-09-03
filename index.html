@@ -54,7 +54,6 @@ layout: document.njk
   {% endfor %}
 </ul>
 
-<script src="filter.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const input = document.getElementById("searchInput");
@@ -90,6 +89,39 @@ layout: document.njk
       if (e.target === suggestModal) {
         suggestModal.classList.remove("active");
       }
+    });
+
+    const suggestForm = document.getElementById("suggestColorForm");
+    suggestForm.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const hex = document.getElementById("suggestHex").value.trim();
+      const name = document.getElementById("suggestName").value.trim();
+      const url = document.getElementById("suggestUrl").value.trim();
+      const btn = suggestForm.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = "Submitting...";
+      try {
+        const res = await fetch("/.netlify/functions/suggest-color", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ hex, name, url }),
+        });
+        const data = await res.json();
+        if (res.ok && data.pr_url) {
+          alert(
+            "Thank you! Your suggestion was submitted.\nPull request: " +
+              data.pr_url
+          );
+          suggestForm.reset();
+          document.getElementById("suggestModal").classList.remove("active");
+        } else {
+          alert("Error: " + (data.message || "Could not create pull request."));
+        }
+      } catch (err) {
+        alert("Network error: " + err.message);
+      }
+      btn.disabled = false;
+      btn.textContent = "Submit";
     });
   });
 </script>
