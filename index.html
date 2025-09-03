@@ -7,6 +7,34 @@ layout: document.njk
   <label for="searchInput">Search colors by name or hex</label>
   <input type="text" id="searchInput" class="search-input" />
 </div>
+<button id="openModalBtn" style="margin: 2rem auto; display: block;">Suggest a missing color</button>
+<div class="modal" id="suggestModal">
+  <div class="modal-content">
+    <button class="close" id="closeModalBtn" aria-label="Close">&times;</button>
+    <h2>Suggest a missing color</h2>
+    <form id="suggestColorForm">
+      <div>
+        <label for="suggestHex">Hex code:</label>
+        <input
+          type="text"
+          id="suggestHex"
+          name="hex"
+          required
+          pattern="#?[A-Fa-f0-9]{6}"
+        />
+      </div>
+      <div>
+        <label for="suggestName">Name:</label>
+        <input type="text" id="suggestName" name="name" required />
+      </div>
+      <div>
+        <label for="suggestUrl">URL:</label>
+        <input type="url" id="suggestUrl" name="url" required />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
 
 <ul class="grid">
   {% for color in colors %}
@@ -21,6 +49,7 @@ layout: document.njk
   {% endfor %}
 </ul>
 
+<script src="filter.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const input = document.getElementById("searchInput");
@@ -35,6 +64,27 @@ layout: document.njk
           block.classList.add("hide");
         }
       });
+    });
+
+    const openModalBtn = document.getElementById("openModalBtn");
+    const closeModalBtn = document.getElementById("closeModalBtn");
+    const suggestModal = document.getElementById("suggestModal");
+
+    openModalBtn.addEventListener("click", () => {
+      suggestModal.classList.add("active");
+    });
+    closeModalBtn.addEventListener("click", () => {
+      suggestModal.classList.remove("active");
+    });
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        suggestModal.classList.remove("active");
+      }
+    });
+    suggestModal.addEventListener("click", (e) => {
+      if (e.target === suggestModal) {
+        suggestModal.classList.remove("active");
+      }
     });
   });
 </script>
