@@ -1,7 +1,7 @@
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("styles.css");
+  eleventyConfig.addPassthroughCopy({ "src/scripts/index.js": "scripts.js" });
 
   eleventyConfig.addPlugin(lightningCSS);
 
