@@ -30,7 +30,7 @@ layout: document.njk
   <div class="modal-content">
     <button class="close" id="closeModalBtn" aria-label="Close">&times;</button>
     <h2>Suggest a missing color</h2>
-    <form id="suggestColorForm">
+  <form id="suggestColorForm">
       <div>
         <label for="suggestHex">Hex code:</label>
         <input
@@ -50,6 +50,9 @@ layout: document.njk
         <input type="url" id="suggestUrl" name="url" required />
       </div>
       <button type="submit">Submit</button>
+      <div style="margin-top:1rem;text-align:center">
+        <a href="https://github.com/svillegascreative/hexcolor-words/compare/main...main?expand=1" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;font-size:0.95em;">Prefer GitHub? Create a pull request directly</a>
+      </div>
     </form>
   </div>
 </div>
