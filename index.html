@@ -135,6 +135,12 @@ layout: document.njk
       const name = document.getElementById("suggestName").value.trim();
       const url = document.getElementById("suggestUrl").value.trim();
       const btn = suggestForm.querySelector('button[type="submit"]');
+      // Check for duplicate name (case-insensitive)
+      const existingNames = Array.from(document.querySelectorAll('.grid .name')).map(a => a.textContent.trim().toLowerCase());
+      if (existingNames.includes(name.toLowerCase())) {
+        alert("That word already exists in the color list.");
+        return;
+      }
       btn.disabled = true;
       btn.textContent = "Submitting...";
       try {
