@@ -1,12 +1,35 @@
 import lightningCSS from "@11tyrocks/eleventy-plugin-lightningcss";
+import esbuild from "esbuild";
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "src/scripts/index.js": "scripts.js" });
+  // process JS:
+  eleventyConfig.addTemplateFormats('js');
+  eleventyConfig.addExtension('js', {
+	  outputFileExtension: 'js',
+    compile: async (content, path) => {
+      if (path !== './src/scripts/index.js') {
+        return;
+      }
 
+      return async () => {
+        let output = await esbuild.build({
+          target: 'es2020',
+          entryPoints: [path],
+          minify: true,
+          bundle: true,
+          write: false,
+        });
+
+        return output.outputFiles[0].text;
+      }
+    }
+  });
+
+  // process CSS:
   eleventyConfig.addPlugin(lightningCSS);
 
   return {
-    // use nunjucks everywhere
+    // use nunjucks everywhere:
     markdownTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     htmlTemplateEngine: "njk",

@@ -13,6 +13,7 @@ https://hexcolor-words.netlify.app
 - Hosted on [Netlify](https://www.netlify.com/)
 - CSS handled by [LightningCSS](https://lightningcss.dev/) via
   [eleventy-plugin-lightningcss](https://github.com/5t3ph/eleventy-plugin-lightningcss)
+- JS bundled with [esbuild](https://github.com/evanw/esbuild)
 - Built using Copilot and carefully refactored
 
 ## Sources
