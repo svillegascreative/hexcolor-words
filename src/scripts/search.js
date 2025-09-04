@@ -8,9 +8,9 @@ searchInput.addEventListener("input", (e) => {
     const name = block.querySelector(".name").textContent.toLowerCase();
 
     if (hex.startsWith(val) || name.startsWith(val) || val === "") {
-      block.style.display = "initial"
+      block.style.display = "initial";
     } else {
-      block.style.display = "none"
+      block.style.display = "none";
     }
   });
 });
