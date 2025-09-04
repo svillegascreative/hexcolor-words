@@ -18,16 +18,3 @@ setDarkMode(saved ? saved === "1" : prefersDark);
 darkToggle.addEventListener("click", () => {
   setDarkMode(!document.body.classList.contains("dark-mode"));
 });
-const input = document.getElementById("searchInput");
-input.addEventListener("input", function (e) {
-  const val = e.target.value.toLowerCase();
-  document.querySelectorAll(".grid > li").forEach((block) => {
-    const hex = block.querySelector(".hex").textContent.toLowerCase();
-    const name = block.querySelector(".name").textContent.toLowerCase();
-    if (hex.startsWith(val) || name.startsWith(val) || val === "") {
-      block.classList.remove("hide");
-    } else {
-      block.classList.add("hide");
-    }
-  });
-});

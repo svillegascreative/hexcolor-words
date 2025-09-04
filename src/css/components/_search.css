@@ -1,5 +1,7 @@
 .search-container {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
@@ -10,19 +12,4 @@
   border: 1px solid #ccc;
   width: 300px;
   max-width: 90vw;
-}
-
-.search-clear-btn {
-  background: #eee;
-  color: #222;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.search-clear-btn:hover {
-  background: #ccc;
 }
