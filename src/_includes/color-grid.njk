@@ -1,0 +1,12 @@
+<ul class="grid">
+  {% for color in colors %}
+  <li>
+    <article class="color-block" style="background:{{ color.hex }}">
+      <span class="hex">{{ color.hex }}</span>
+      <a href="{{ color.url }}" target="_blank" class="name"
+        >{{ color.name }}</a
+      >
+    </article>
+  </li>
+  {% endfor %}
+</ul>
