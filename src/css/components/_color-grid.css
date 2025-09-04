@@ -43,3 +43,15 @@
 .name {
   margin-bottom: 0.25rem;
 }
+
+.color-list-empty {
+  display: none;
+}
+
+/* When the grid doesn't have list items that are not hidden (i.e. has no visible items)... */
+.grid:not(:has(li:not([style*="display: none"]))) {
+  /* ...content is visible in adjacent div */
+  + div .color-list-empty {
+    display: block;
+  }
+}

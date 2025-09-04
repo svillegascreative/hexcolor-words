@@ -2,5 +2,6 @@
   <label for="searchInput">
     Search {{colors.length}} colors by name or hex
   </label>
-  <input type="search" id="searchInput" class="search-input" />
+  <input type="search" id="searchInput" class="search-input" aria-describedby="search-description"/>
+  <span class="visually-hidden" id="search-description">List of colors filtered dynamically as you type</span>
 </div>
