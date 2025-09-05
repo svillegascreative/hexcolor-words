@@ -4,12 +4,3 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-
-.search-input {
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  width: 300px;
-  max-width: 90vw;
-}

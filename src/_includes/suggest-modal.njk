@@ -1,11 +1,13 @@
-
-<button id="openModalBtn" style="margin: 2rem auto; display: block">
+<button id="openModalBtn">
   Suggest a missing color
 </button>
+
 <div class="modal" id="suggestModal">
   <div class="modal-content">
     <button class="close" id="closeModalBtn" aria-label="Close">&times;</button>
+    
     <h2>Suggest a missing color</h2>
+
     <form id="suggestColorForm">
       <div>
         <label for="suggestHex">Hex code:</label>
@@ -17,15 +19,19 @@
           pattern="#?[A-Fa-f0-9]{6}"
         />
       </div>
+
       <div>
         <label for="suggestName">Name:</label>
         <input type="text" id="suggestName" name="name" required />
       </div>
+
       <div>
         <label for="suggestUrl">URL:</label>
         <input type="url" id="suggestUrl" name="url" required />
       </div>
+
       <button type="submit">Submit</button>
+
       <div style="margin-top: 1rem; text-align: center">
         <a
           href="https://github.com/svillegascreative/hexcolor-words/compare/main...main?expand=1"
@@ -36,5 +42,6 @@
         >
       </div>
     </form>
+
   </div>
 </div>
