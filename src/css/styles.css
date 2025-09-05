@@ -20,7 +20,10 @@ body {
 /* HEADINGS */
 h1 {
   text-align: center;
-  margin-bottom: 2rem;
+  font-size: clamp(3rem, 0rem + 10vw, 10rem);
+  font-weight: 400;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
 }
 
 button {
