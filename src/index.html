@@ -2,10 +2,16 @@
 layout: document.njk
 ---
 
-<h1>Hexcolor Words</h1>
+<header>
+  <h1>Hexcolor Words</h1>
+  
+  {% include 'light-dark-toggle.njk' %}
+  {% include 'search.njk' %}
+  {% include 'suggest-modal.njk' %}
+</header>
 
-{% include 'light-dark-toggle.njk' %}
-{% include 'search.njk' %}
-{% include 'suggest-modal.njk' %}
-{% include 'color-grid.njk' %}
+<main>
+  {% include 'color-grid.njk' %}
+</main>
+
 {% include 'footer.njk' %}
