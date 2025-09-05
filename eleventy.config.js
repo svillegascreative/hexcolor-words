@@ -28,6 +28,9 @@ export default function (eleventyConfig) {
   // process CSS:
   eleventyConfig.addPlugin(lightningCSS);
 
+  // pass through fonts:
+  eleventyConfig.addPassthroughCopy("src/fonts")
+
   return {
     // use nunjucks everywhere:
     markdownTemplateEngine: "njk",

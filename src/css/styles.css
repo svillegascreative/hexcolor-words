@@ -1,6 +1,7 @@
-@import url("_variables.css");
-
 @import url("_reset.css");
+
+@import url("_fonts.css");
+@import url("_variables.css");
 
 @import url("components/_light-dark-toggle.css");
 @import url("components/_search.css");
@@ -11,7 +12,7 @@
 @import url("_utilities.css");
 
 body {
-  font-family: sans-serif;
+  font-family: 'Solway', serif;
   margin: 0;
   padding: 2rem;
 }
