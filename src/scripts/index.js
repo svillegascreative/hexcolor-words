@@ -1,3 +1,3 @@
-import "./dark-mode";
+import "./handleTheme";
 import "./search";
 import "./suggest";
