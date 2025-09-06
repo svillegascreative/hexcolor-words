@@ -14,6 +14,11 @@
   /* --input-border-color: var(--color-dark-contrast-45); */
 
   --panel-color-bg: var(--color-light);
+
+  --swatch-hex-text-color: var(--color-black);
+  --swatch-hex-text-outline: var(--color-white);
+  --swatch-name-text-color: var(--color-darkest);
+  --swatch-name-bg: var(--color-lightest);
 }
 
 [data-theme="dark"] {
@@ -32,4 +37,9 @@
   /* --input-border-color: var(--color-dark); */
 
   --panel-color-bg: var(--color-dark);
+
+  --swatch-hex-text-color: var(--color-white);
+  --swatch-hex-text-outline: var(--color-black);
+  --swatch-name-text-color: var(--color-lightest);
+  --swatch-name-bg: var(--color-dark);
 }

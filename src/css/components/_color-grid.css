@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.color-block {
+.swatch {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -25,18 +25,30 @@
   }
 }
 
-.hex,
+.hex{
+  position: relative;
+  z-index: 0;
+  /* font-family: monospace; */
+  display: inline-block;
+  color: var(--swatch-hex-text-color, #fff);
+  font-size: 2rem;
+    
+  /* This effect only works if .hex is not a child of a flex-item (so .hex is wrapped in a div) */
+    &::before {
+      content: attr(data-text);
+      position: absolute;
+      z-index: -1;
+      -webkit-text-stroke: 5px var(--swatch-hex-text-outline, #000);
+    }
+}
+
 .name {
   display: inline-block;
   padding: 0 0.2em;
-  background-color: var(--panel-color-bg);
-  color: var(--color-text);
-  font-size: 1.5rem;
+  background-color: var(--swatch-name-bg);
+  color: var(--swatch-name-text-color);
+  font-size: 1.2rem;
   border-radius: var(--border-radius-sm);
-}
-
-.hex {
-  font-family: monospace;
 }
 
 .color-list-empty {
@@ -50,5 +62,6 @@
     display: block;
     font-size: 2rem;
     text-align: center;
+    
   }
 }
