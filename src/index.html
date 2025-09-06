@@ -4,10 +4,18 @@ layout: document.njk
 
 <header>
   <h1>Hexcolor Words</h1>
+
+  <div class="actions-panel">
+    {% include 'search.njk' %}
+
+    <button id="openModalBtn">
+      Suggest a missing color
+    </button>
+
+    {% include 'light-dark-toggle.njk' %}
+    
+  </>
   
-  {% include 'light-dark-toggle.njk' %}
-  {% include 'search.njk' %}
-  {% include 'suggest-modal.njk' %}
 </header>
 
 <main>
@@ -15,3 +23,5 @@ layout: document.njk
 </main>
 
 {% include 'footer.njk' %}
+
+{% include 'suggest-modal.njk' %}

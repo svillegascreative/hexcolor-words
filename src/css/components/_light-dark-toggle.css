@@ -9,17 +9,11 @@ body.dark-mode {
   border: 1px solid #333;
 }
 .dark-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
   background: #222;
   color: #fff;
   border: none;
-  border-radius: 6px;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  cursor: pointer;
-  z-index: 2000;
   transition: background 0.2s;
 }
 body:not(.dark-mode) .dark-toggle {

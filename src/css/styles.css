@@ -4,9 +4,9 @@
 @import url("_variables.css");
 @import url("_themes.css");
 
+@import url("components/_actions-panel.css");
 @import url("components/_light-dark-toggle.css");
 @import url("components/_search.css");
-@import url("components/_suggestion-widget.css");
 @import url("components/_color-grid.css");
 @import url("components/_modal.css");
 
@@ -24,9 +24,12 @@ body {
 h1 {
   text-align: center;
   font-size: clamp(3rem, 0rem + 10vw, 10rem);
-  font-weight: 400;
+  font-weight: 900;
   line-height: 0.8;
   letter-spacing: -0.05em;
+  margin-block-end: -0.25em;
+  text-shadow: 0 0.02em 0.15em var(--color-bg);
+
 }
 
 button {
@@ -50,6 +53,5 @@ input {
   border-radius: 6px;
   border: 1px solid #ccc;
   padding: 0.5rem 1rem;
-  width: 300px;
-  max-width: 90vw;
+  width: 100%;
 }

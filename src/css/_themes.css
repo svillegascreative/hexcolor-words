@@ -1,11 +1,13 @@
 [data-theme="light"] {
   --color-text: var(--color-dark);
   --color-bg: var(--color-light);
-  --color-ui: var(--color-light-contrast-3);
+  --color-ui: var(--color-dark-contrast-3);
+  --panel-bg-color: var(--color-light-contrast-3);
 }
 
 [data-theme="dark"] {
   --color-text: var(--color-light);
   --color-bg: var(--color-dark);
-  --color-ui: var(--color-dark-contrast-3);
+  --color-ui: var(--color-light-contrast-3);
+  --panel-bg-color: var(--color-dark-contrast-3);
 }
