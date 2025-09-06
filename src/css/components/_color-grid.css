@@ -25,13 +25,14 @@
   }
 }
 
-.hex{
+.hex {
   position: relative;
   z-index: 0;
   /* font-family: monospace; */
   display: inline-block;
   color: var(--swatch-hex-text-color, #fff);
   font-size: 2rem;
+  font-weight: 700;
     
   /* This effect only works if .hex is not a child of a flex-item (so .hex is wrapped in a div) */
     &::before {

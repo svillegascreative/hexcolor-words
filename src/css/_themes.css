@@ -1,5 +1,5 @@
 [data-theme="light"] {
-  --color-bg-page: var(--color-lightest);
+  --color-bg-page: var(--color-white);
   --color-text: var(--color-light-contrast-45);
   --color-text-heading: var(--color-darkest);
   --color-ui: var(--color-lightest-contrast-3);
@@ -22,7 +22,7 @@
 }
 
 [data-theme="dark"] {
-  --color-bg-page: var(--color-darkest);
+  --color-bg-page: var(--color-black);
   --color-text: var(--color-dark-contrast-45);
   --color-text-heading: var(--color-lightest);
   --color-ui: var(--color-darkest-contrast-3);

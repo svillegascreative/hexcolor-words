@@ -1,7 +1,7 @@
 <ul class="grid">
   {% for color in colors %}
   <li>
-    <article class="swatch" style="background:{{ color.hex }}">
+    <article class="swatch" style="background:{{ color.hex }}" >
 
       <div><!-- div required for CSS stacking context! -->
         <span class="hex" data-text={{color.hex}}>{{ color.hex }}</span>
