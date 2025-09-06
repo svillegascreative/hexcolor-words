@@ -30,17 +30,17 @@
   z-index: 0;
   /* font-family: monospace; */
   display: inline-block;
-  color: var(--swatch-hex-text-color, #fff);
+  color: var(--swatch-hex-text-color);
   font-size: 2rem;
   font-weight: 700;
-    
+
   /* This effect only works if .hex is not a child of a flex-item (so .hex is wrapped in a div) */
-    &::before {
-      content: attr(data-text);
-      position: absolute;
-      z-index: -1;
-      -webkit-text-stroke: 5px var(--swatch-hex-text-outline, #000);
-    }
+  &::before {
+    position: absolute;
+    content: attr(data-text);
+    z-index: -1;
+    -webkit-text-stroke: 5px var(--swatch-hex-text-outline, #000);
+  }
 }
 
 .name {

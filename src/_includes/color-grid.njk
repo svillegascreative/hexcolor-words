@@ -1,15 +1,12 @@
 <ul class="grid">
   {% for color in colors %}
   <li>
-    <article class="swatch" style="background:{{ color.hex }}" >
-
-      <div><!-- div required for CSS stacking context! -->
+    <article class="swatch" style="background:{{ color.hex }}">
+      <div>
         <span class="hex" data-text={{color.hex}}>{{ color.hex }}</span>
       </div>
 
-      <a href="{{ color.url }}" target="_blank" class="name">
-        {{ color.name }}
-      </a>
+      <a href="{{ color.url }}" target="_blank" class="name">{{ color.name }}</a>
     </article>
   </li>
   {% endfor %}
