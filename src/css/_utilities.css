@@ -9,3 +9,21 @@
   width: 1px;
   white-space: nowrap;
 }
+
+.stack-tight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stack-loose {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stack-wide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

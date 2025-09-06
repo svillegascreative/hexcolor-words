@@ -1,6 +1,23 @@
 :root {
-  --color-dark: #333;
-  --color-dark-contrast-3: #666;
-  --color-light: #eee;
-  --color-light-contrast-3: #bbb;
+  --color-black: #000;
+  --color-darkest: #222;
+  --color-darkest-contrast-3: #6E6E6E;
+  --color-darkest-contrast-45: #8F8F8F;
+
+  --color-dark: #444;
+  --color-dark-contrast-3: #8F8F8F;
+  --color-dark-contrast-45: #B3B3B3;
+
+  --color-white: #fff;
+  --color-lightest: #efefef;
+  --color-lightest-contrast-3: #888;
+  --color-lightest-contrast-45: #666;
+
+  --color-light: #ccc;
+  --color-light-contrast-3: #707070;
+  --color-light-contrast-45: #555;
+
+  --border-radius-sm: 0.3rem;
+  --border-radius-md: 0.8rem;
+  --border-radius-lg: 1rem;
 }

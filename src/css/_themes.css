@@ -1,13 +1,35 @@
 [data-theme="light"] {
-  --color-text: var(--color-dark);
-  --color-bg: var(--color-light);
-  --color-ui: var(--color-dark-contrast-3);
-  --panel-bg-color: var(--color-light-contrast-3);
+  --color-bg-page: var(--color-lightest);
+  --color-text: var(--color-light-contrast-45);
+  --color-text-heading: var(--color-darkest);
+  --color-ui: var(--color-lightest-contrast-3);
+  --color-focus: var(--color-darkest);
+
+  --button-bg-color: var(--color-light-contrast-3);
+  --button-bg-color-hover: var(--color-light-contrast-45);
+  --button-text-color: var(--color-lightest);
+
+  --input-bg-color: var(--color-lightest);
+  --input-text-color: var(--color-dark);
+  /* --input-border-color: var(--color-dark-contrast-45); */
+
+  --panel-color-bg: var(--color-light);
 }
 
 [data-theme="dark"] {
-  --color-text: var(--color-light);
-  --color-bg: var(--color-dark);
-  --color-ui: var(--color-light-contrast-3);
-  --panel-bg-color: var(--color-dark-contrast-3);
+  --color-bg-page: var(--color-darkest);
+  --color-text: var(--color-dark-contrast-45);
+  --color-text-heading: var(--color-lightest);
+  --color-ui: var(--color-darkest-contrast-3);
+  --color-focus: var(--color-lightest);
+
+  --button-bg-color: var(--color-dark-contrast-45);
+  --button-bg-color-hover: var(--color-dark-contrast-3);
+  --button-text-color: var(--color-darkest);
+  
+  --input-bg-color: var(--color-darkest);
+  --input-text-color: var(--color-lightest);
+  /* --input-border-color: var(--color-dark); */
+
+  --panel-color-bg: var(--color-dark);
 }

@@ -1,7 +1,15 @@
-<div class="search-container">
+<div class="stack-tight">
   <label for="searchInput">
-    Search {{colors.length}} colors by name or hex
+    Search <b>{{colors.length}}</b> colors by name or hex:
   </label>
-  <input type="search" id="searchInput" class="search-input" aria-describedby="search-description"/>
-  <span class="visually-hidden" id="search-description">List of colors filtered dynamically as you type</span>
+  <input
+    type="search"
+    id="searchInput"
+    class="search-input"
+    aria-describedby="search-description"
+    spellcheck="false"
+  />
+  <span class="visually-hidden" id="search-description">
+    List of colors filtered dynamically as you type
+  </span>
 </div>

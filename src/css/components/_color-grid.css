@@ -1,22 +1,23 @@
 .grid {
   list-style: "";
-  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
+  padding: 0;
   margin: 0 auto;
 }
 
 .color-block {
   display: flex;
   flex-direction: column;
+  gap: 0.25rem;
   justify-content: end;
   align-items: start;
-  border-radius: 8px;
+  border-radius: var(--border-radius-lg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   padding: 1rem;
   aspect-ratio: 1/1;
-  transition: transform 0.1s;
+  transition: all 0.1s;
 
   &:hover {
     transform: scale(1.04);
@@ -27,21 +28,15 @@
 .hex,
 .name {
   display: inline-block;
-  padding: 0.2em;
-  background-color: var(--color-bg);
+  padding: 0 0.2em;
+  background-color: var(--panel-color-bg);
   color: var(--color-text);
   font-size: 1.5rem;
-  font-weight: bold;
-  border-radius: 6px;
+  border-radius: var(--border-radius-sm);
 }
 
 .hex {
   font-family: monospace;
-  margin-bottom: 0.25rem;
-}
-
-.name {
-  margin-bottom: 0.25rem;
 }
 
 .color-list-empty {
@@ -53,5 +48,7 @@
   /* ...content is visible in adjacent div */
   + div .color-list-empty {
     display: block;
+    font-size: 2rem;
+    text-align: center;
   }
 }
