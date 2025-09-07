@@ -7,6 +7,7 @@
 
   --button-bg-color: var(--color-light-contrast-3);
   --button-bg-color-hover: var(--color-light-contrast-45);
+  --button-border-color: var(--color-light-contrast-3);
   --button-text-color: var(--color-lightest);
 
   --input-bg-color: var(--color-lightest);
@@ -30,6 +31,7 @@
 
   --button-bg-color: var(--color-dark-contrast-45);
   --button-bg-color-hover: var(--color-dark-contrast-3);
+  --button-border-color: var(--color-dark-contrast-45);
   --button-text-color: var(--color-darkest);
   
   --input-bg-color: var(--color-darkest);

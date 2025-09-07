@@ -1,10 +1,13 @@
 const themeToggle = document.getElementById("themeToggle");
 
-function setTheme(theme) {
+const getOpposite = (theme) => theme === "light" ? "dark" : "light";
+
+const setTheme = (theme) => {
   // Sets html[data-theme] to "light" or "dark"
   document.documentElement.setAttribute('data-theme', theme);
 
-  themeToggle.textContent = theme ; // TODO: CSS
+  themeToggle.textContent = theme;
+  themeToggle.ariaLabel = `Switch to ${getOpposite(theme)} theme`;
   localStorage.setItem("theme", theme);
 }
 
@@ -12,9 +15,9 @@ function setTheme(theme) {
 const initialTheme = localStorage.getItem("theme") || window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light" || "light";
 setTheme(initialTheme);
 
-function toggleTheme() {
+const toggleTheme = () => {
   const currentTheme = document.documentElement.getAttribute("data-theme");
-  const newTheme = currentTheme === "light" ? "dark" : "light";
+  const newTheme = getOpposite(currentTheme) ;
   setTheme(newTheme);
 }
 
