@@ -21,7 +21,7 @@
   max-width: 400px;
   background: var(--panel-color-bg);
   border-radius: var(--border-radius-md);
-  box-shadow: 0 4px 24px var(--color-bg-page);
+  box-shadow: 0 4px 24px var(--color-darkest);
   padding: 2rem 2.5rem;
 
   h2 {
@@ -42,4 +42,10 @@
   &:hover {
     color: #222;
   }
+}
+
+.modal-footer {
+  margin-block-start: 1rem;
+  text-align: center;
+  text-wrap: pretty;
 }

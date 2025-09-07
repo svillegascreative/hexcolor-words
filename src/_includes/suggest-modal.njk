@@ -4,7 +4,7 @@
     
     <h2>Suggest a missing color</h2>
 
-    <form id="suggestColorForm" class="stack-loose">
+    <form id="suggestColorForm" class="stack-loose" autocomplete="off">
       <div class="stack-tight">
         <label for="suggestHex">Hex code:</label>
         <input
@@ -27,17 +27,20 @@
       </div>
 
       <button type="submit">Submit</button>
-
-      <div style="margin-top: 1rem; text-align: center">
-        <a
-          href="https://github.com/svillegascreative/hexcolor-words/compare/main...main?expand=1"
-          target="_blank"
-          rel="noopener"
-          style="color: inherit; text-decoration: underline; font-size: 0.95em"
-          >Prefer GitHub? Create a pull request directly</a
-        >
-      </div>
     </form>
 
+      <p class="modal-footer">
+        Prefer GitHub? 
+        <a
+          href="https://github.com/svillegascreative/hexcolor-words/pulls"
+          target="_blank"
+          rel="noopener"
+        >
+          Submit a PR
+        </a>.
+        <br />
+        Read the 
+        <a href="https://github.com/svillegascreative/hexcolor-words/blob/main/RULES.md">word rules</a>.
+      </p>
   </div>
 </div>
