@@ -45,7 +45,7 @@ button {
   text-wrap: balance;
   line-height: 1.1;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: background 0.2s;
 
   &:hover {
     background-color: var(--button-bg-color-hover);
@@ -72,4 +72,5 @@ input {
 :focus-visible {
   outline: 3px dotted var(--color-focus);
   outline-offset: 2px;
+  box-shadow: 0 0 0 5px var(--color-bg-page);
 }
