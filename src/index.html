@@ -2,7 +2,7 @@
 layout: document.njk
 ---
 
-<header>
+<header id="header">
   <h1>Hexcolor Words</h1>
 
   <div class="actions-panel">
@@ -13,10 +13,12 @@ layout: document.njk
     </button>
 
     {% include 'light-dark-toggle.njk' %}
-    
-  </>
-  
+  </div>
 </header>
+
+<div class="skip-link">
+  <a href="#footer">Skip to footer</a>
+</div>
 
 <main>
   {% include 'color-grid.njk' %}
