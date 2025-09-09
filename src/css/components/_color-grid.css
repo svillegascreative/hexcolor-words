@@ -12,12 +12,12 @@
   flex-direction: column;
   gap: 0.25rem;
   justify-content: end;
-  align-items: start;
   border-radius: var(--border-radius-lg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   padding: 1rem;
   aspect-ratio: 1/1;
   transition: all 0.1s;
+  text-align: center;
 
   &:hover {
     transform: scale(1.04);
@@ -50,6 +50,15 @@
   color: var(--swatch-name-text-color);
   font-size: 1.2rem;
   border-radius: var(--border-radius-sm);
+  opacity: 0;
+  translate: 0 100%;
+}
+
+.swatch:hover .name,
+.name:focus {
+  opacity: 1;
+  translate: 0;
+  transition: opacity 1s, translate 0.3s;
 }
 
 .color-list-empty {
