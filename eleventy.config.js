@@ -28,8 +28,9 @@ export default function (eleventyConfig) {
   // process CSS:
   eleventyConfig.addPlugin(lightningCSS);
 
-  // pass through fonts:
+  // pass through fonts & images:
   eleventyConfig.addPassthroughCopy("src/fonts")
+  eleventyConfig.addPassthroughCopy("src/images")
 
   return {
     // use nunjucks everywhere:
