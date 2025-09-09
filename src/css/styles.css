@@ -53,7 +53,7 @@ button {
 }
 
 label {
-    text-wrap: pretty;  
+  text-wrap: pretty;  
 }
 
 input {
@@ -63,6 +63,7 @@ input {
   color: var(--input-text-color);
   padding: 0.5rem 1rem;
   width: 100%;
+  max-width: 20rem;
 }
 
 :focus {
