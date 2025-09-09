@@ -1,4 +1,13 @@
-<footer id="footer">
+<footer id="footer" class="stack-wide">
+   <div>
+    <p>Know any more words that should be on this list?</p>
+    <button type="button" id="openModalBtn">
+      Suggest a missing color
+    </button>
+
+    {% include 'suggest-modal.njk' %}
+  </div>
+
   <a href="#header">Back to top</a>
 
   <p>
@@ -8,9 +17,6 @@
       target="_blank"
       rel="noopener"
     >svillegascreative</a>.
-  </p>
-  
-  <p>
     Made with <a
       href="https://www.11ty.dev/"
       target="_blank"

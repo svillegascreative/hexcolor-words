@@ -1,7 +1,7 @@
 .actions-panel {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   background: var(--panel-color-bg);  
@@ -9,7 +9,7 @@
   margin-block-end: 2rem;
 }
 
-@media (width > 45rem) {
+@media (width > 25rem) {
   .actions-panel {
     flex-direction: row;
     gap: clamp(1rem, 10vw, 8rem);
